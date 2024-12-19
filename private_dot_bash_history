@@ -1,0 +1,264 @@
+sudo dnf install hyfetch
+sudo systemctl restart NetworkManager
+nmtui
+reboot
+echo $XDG_SESSION_TYPE 
+sudo systemctl restart display-manager
+nvim
+vim
+emacs
+reboot
+gcc
+sudo dnf install sway wofi wezterm
+sudo dnf install sway wofi 
+wget https://github.com/wez/wezterm/releases/download/nightly/wezterm-nightly-fedora39.rpm ~/Downloads/wezterm-nightly-fedora39.rpm && sudo dnf install -y ~/Downloads/wezterm-nightly-fedora39.rpm
+cd
+mkdir -pv .config/sway
+cp /etc/sway/config .config/sway
+sudo systemctl reload display-manager
+sudo systemctl restart display-manager
+sudo nano /etc/sddm.conf
+sudo systemctl restart display-manager
+vi
+vi .config/sway/config 
+firefox
+ping 157.245.78.161
+ssh nix2twink.gay
+ls
+cd Documents/
+ls
+mkdir Programming
+cd Programming/
+mkdir gitpkgs probe 
+cd gitpkgs/
+git clone https://github.com/rexim/dotfiles
+cd dotfiles/
+cp -rv .emacs* $HOME
+sudo dnf install lxappereance
+sudo dnf install lxappearance
+sudo dnf install --allowerasing i3-gaps
+ls
+sudo dnf uninstall i3-gaps
+sudo dnf remove i3-gaps
+sudo dnf remove i3*
+ls
+sudo dnf install emacs
+sudo dnf install emacs dmenu
+sudo dnf install pavucontrol
+ssh nix2twink.gay
+ssh nix2twink.gay -v
+ls
+vim
+vi .config/sway/config 
+sudo rm /etc/sway/config
+cd .config/sway/
+ls
+nano config 
+nano .config/sway/config 
+vi .config/sway/config 
+ls
+rm wezterm-nightly-fedora39.rpm 
+sudo dnf install -y https://github.com/wez/wezterm/releases/download/20240203-110809-5046fc22/wezterm-20240203_110809_5046fc22-1.fedora39.x86_64.rpm
+sudo dnf install git
+curl https://sh.rustup.rs -sSf | sh -s
+zsh
+sudo dnf install zsh
+sudo dnf install -y dnf-plugins-core distribution-gpg-keys
+sudo dnf copr enable taw/element
+sudo dnf install -y element --refresh
+sudo dnf install -y dnf-plugins-core distribution-gpg-keys
+sudo dnf copr enable taw/element
+sudo dnf install -y element --refresh
+rpm-ostree install nheko
+sudo dnf install nheko
+nheko
+htop
+sudo dnf install htop btop iftop iotop
+sudo dnf install nload
+nload
+acpi
+btop
+starship
+ls
+cd .cargo/bin/
+ls
+i3lock-fancy
+cd Documents/Programming/gitpkgs/
+git clone git clone --depth=1 --branch=main --recursive https://github.com/wez/wezterm.git
+git clone --depth=1 --branch=main --recursive https://github.com/wez/wezterm.git
+git clone --depth=1 --branch=main --recursive https://github.com/wez/wezterm.git --verbose
+ls
+rm -rvf wezterm/
+ curl -LO https://github.com/wez/wezterm/releases/download/20240203-110809-5046fc22/wezterm-20240203-110809-5046fc22-src.tar.gz
+ls
+wget https://download.swift.org/swift-6.0.3-release/fedora39-aarch64/swift-6.0.3-RELEASE/swift-6.0.3-RELEASE-fedora39-aarch64.tar.gz
+clear
+git clone https://github.com/meskarune/i3lock-fancy.git
+rm -rvf i3lock-fancy/
+cd
+zsh
+which swaylock
+sudo chmod u+s $(which swaylock)
+swaylock -i Pictures -
+swaylock -i Pictures/windows11.jpg 
+swaylock 
+reboot
+swaylock -i Pictures/windows11.jpg 
+find . -name "*.jpg" -exec mogrify -format png {} \;
+ls
+cd Pictures/
+ls
+swaylock -i windows11.png 
+rm -rvf *
+wget https://download.swift.org/swift-6.0.3-release/fedora39-aarch64/swift-6.0.3-RELEASE/swift-6.0.3-RELEASE-fedora39-aarch64.tar.gz
+nmtui
+ip a
+ls
+wget https://download.swift.org/swift-6.0.3-release/fedora39-aarch64/swift-6.0.3-RELEASE/swift-6.0.3-RELEASE-fedora39-aarch64.tar.gz
+ls
+mv swift-6.0.3-RELEASE-fedora39-aarch64.tar.gz Documents/Programming/probe/swift/
+sudo dnf install thunderbirc
+sudo dnf install thunderbird
+sudo dnf install easyeffects
+sudo dnf instsall i3status
+sudo dnf install i3status
+ls /sys/class/power_supply/macsmc-battery/uevent 
+i3status 
+acpi
+ls /sys/class/power_supply/macsmc-battery/energy_now 
+cat /sys/class/power_supply/macsmc-battery/energy_now 
+cat /sys/class/power_supply/macsmc-battery/charge_full
+sudo nano /etc/i3status.conf 
+sudo emacs /etc/i3status.conf 
+sudo -i
+dnf search binfmt
+sudo -i
+exit
+sudo rpm --import https://rpm.packages.shiftkey.dev/gpg.key
+zsh
+curl -fsSL https://bun.sh/install | bash
+sudo dnf install libcurl-devel jansson-devel
+git clone --depth 1 https://github.com/AstroNvim/template ~/.config/nvim
+nvim
+sudo dnf install nvim gnvim
+sudo dnf install nvim gneovim
+sudo dnf install nvim 
+nvim
+sudo dnf copr enable atim/gomuks -y && sudo dnf install gomuks -y
+esit
+go
+sudo dnf install golang
+cd 
+ls
+cd Documents/Programming/
+ls
+mkdir bin
+cd gitpkgs/
+ls
+git clone https://github.com/tulir/gomuks.git
+cd gomuks/
+ls
+./build.sh 
+acpi
+clear
+acpi
+clear
+ls
+cat build.sh 
+go build
+ls
+./build.sh 
+sudo dnf install npm nodejs bun
+sudo dnf install npm nodejs 
+ls
+./build.sh 
+sudo dnf install libolm-devel
+./build.sh 
+ls
+./gomuks 
+ls
+cd Documents/pRo
+cd Documents/Programming/
+ls
+cd c/
+ls
+cd matrixOnE/
+ls
+emacs .
+pwd
+cd ..
+rm -rvf c/
+cd Documents/Programming/probe/c/
+ls
+mkdir matrixOnE
+cd matrixOnE/
+sudo dnf install https://code.visualstudio.com/download#
+sudo dnf install https://vscode.download.prss.microsoft.com/dbazure/download/stable/42b266171e51a016313f47d0c48aca9295b9cbb2/code-1.96.1-1734460739.el8.aarch64.rpm
+rm -rvf .emacs*
+ls
+git clone https://github.com/transgirllucy/emacs.git .emacs.d
+emacs
+rm -rvf .emacs.d/
+git clone https://github.com/transgirllucy/emacs.git .emacs.d --recursive
+rm -rvf .emacs.d/
+nano .emacs.d/init.el
+rm -rvf .emacs.d/
+mkdir .emacs.d
+nano .emacs.d/init.el
+flatpak install flathub net.agalwood.Motrix
+htop
+nano .emacs.d/init.el
+cargo install rustyvibes
+sudo dnf install alsa-lib-devel
+git clone https://github.com/bhattkacode/wayvibes
+cd wayvibes
+make
+sudo make install
+cargo install rustyvibes
+sh -c "$(curl -fsLS get.chezmoi.io)"
+cd
+cd Documents/Programming/
+ls
+mkdir dotfiles
+cd dotfiles/
+ls
+chezmoi init
+ls -la
+chezmoi edit
+EDITOR="emacs -nw" chezmoi edit
+EDITOR="code -w" chezmoi edit
+ls
+chezmoi add $HOME/.emacs.d/
+chezmoi 
+chezmoi add --help
+chezmoi add $HOME/.emacs.d/ --recursive --verbose
+chezmoi add $HOME/.emacs.d/ --recursive 
+chezmoi add $HOME/.zshrc 
+chezmoi cd
+git remote add origin git@github.com:transgirllucy/dotfiles.git
+git add .
+git commit -m 'added zsh config'
+ git config --global user.email me@lucy.giving
+  git config --global user.name Lucy
+git add dot_zshrc 
+git commit -m 'added zsh config'
+chezmoi add $HOME/.gitconfig 
+ls
+git add dot_gitconfig 
+git commit -m 'added git config'
+cd
+ls
+ls -la
+clear
+chezmoi add .emacs.d/ --exact --recursive
+ls
+nano dot_zshrc 
+chezmoi apply
+cd
+cat .zshrc 
+ssh-keygen 
+cat $HOME/.ssh/id_ed25519.pub 
+clear
+git remote add origin git@github.com:transgirllucy/dotfiles.git
+ls
+chezmoi cd
