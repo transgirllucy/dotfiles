@@ -1,0 +1,2 @@
+eval "$(starship init zsh)"
+alias server="ssh nix2twink.gay"
